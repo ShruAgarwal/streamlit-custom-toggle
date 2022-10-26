@@ -43,7 +43,7 @@ with col2:
 with col3:
     st_custom_toggle('Rock', active_track_fill="#FF5733", active_thumb_color="#900C3F", key="toggle3")
 ```
-
+<!--
 ## Development 🛠
 
 ### Install
@@ -79,7 +79,7 @@ npm run start
 ```shell script
 streamlit run app.py
 ```
-
+-->
 ## References 🤩
 
 - [React heart-switch](https://github.com/anatoliygatt/heart-switch)
