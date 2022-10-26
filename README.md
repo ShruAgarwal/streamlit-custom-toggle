@@ -1,5 +1,7 @@
 # Streamlit Custom Toggle
 
+A custom component to load heart-shaped Toggle Switch widget 🧡
+
 <p align="center">
  <a href="https://pypi.org/project/streamlit-custom-toggle/">
   <img src="https://badge.fury.io/py/streamlit-custom-toggle.svg" />
@@ -8,8 +10,6 @@
   <img src="https://img.shields.io/badge/License-MIT-orange.svg" />
  </a>
 </p>
-
-A custom component to load heart-shaped Toggle Switch widget 🧡
 
 ## Demo 🕹
 
