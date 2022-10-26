@@ -38,5 +38,5 @@ const StreamlitCustomToggle = (props: ComponentProps) => {
     );
 };
 
-// Make the function publicly available. If you forget this, index.tsx won't find it.
+// The function publicly available.
 export default withStreamlitConnection(StreamlitCustomToggle);
