@@ -11,7 +11,11 @@
 
 A custom component to load heart-shaped Toggle Switch widget 🧡
 
-<!--![](./img/demo.gif)-->
+## Demo 🕹
+
+<p align="center">
+  <img src="https://github.com/ShruAgarwal/streamlit-custom-toggle/blob/main/demo.gif"/>
+</p>
 
 ## Installation ⬇
 
