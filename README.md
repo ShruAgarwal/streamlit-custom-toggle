@@ -43,43 +43,7 @@ with col2:
 with col3:
     st_custom_toggle('Rock', active_track_fill="#FF5733", active_thumb_color="#900C3F", key="toggle3")
 ```
-<!--
-## Development 🛠
 
-### Install
-
-- JS side
-
-```shell script
-cd frontend
-npm install
-```
-
-- Python side
-
-```shell script
-conda create -n st-custom-toggle python=3.7
-conda activate st-custom-toggle
-pip install -e .
-```
-
-### Run
-
-Both webpack dev server and Streamlit need to run for development mode.
-
-- JS side
-
-```shell script
-cd frontend
-npm run start
-```
-
-- Python side
-
-```shell script
-streamlit run app.py
-```
--->
 ## References 🤩
 
 - [React heart-switch](https://github.com/anatoliygatt/heart-switch)
