@@ -9,6 +9,9 @@ A custom component to load heart-shaped Toggle Switch widget 🧡
  <a href="https://github.com/ShruAgarwal/streamlit-custom-toggle/blob/main/LICENSE">
   <img src="https://img.shields.io/badge/License-MIT-orange.svg" />
  </a>
+ <a href="https://pypi.org/project/streamlit-custom-toggle/">
+  <img src="https://img.shields.io/pypi/dm/streamlit-custom-toggle" />
+ </a>
 </p>
 
 ## Demo 🕹
