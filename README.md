@@ -1,5 +1,7 @@
 # Streamlit Custom Toggle
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shru-examples.streamlit.app/Heart_Toggle_Switch)
+
 A custom component to load heart-shaped Toggle Switch widget 🧡
 
 <p align="center">
@@ -16,9 +18,9 @@ A custom component to load heart-shaped Toggle Switch widget 🧡
 
 ## Demo 🕹
 
-<!--<p align="center">
-  <img src="https://github.com/ShruAgarwal/streamlit-custom-toggle/blob/main/demo.gif"/>
-</p>-->
+<p align="center">
+  <img src="https://github.com/ShruAgarwal/streamlit-custom-toggle/blob/main/toggle_demo.gif"/>
+</p>
 
 ## Installation ⬇
 
@@ -34,10 +36,12 @@ pip install streamlit-custom-toggle
 import streamlit as st
 from streamlit_custom_toggle import st_custom_toggle
 
-st.header('Music Choices 🎵')
+st.subheader('Music Choices 🎵')
+col1, col2, col3 = st.columns(3, gap="small")
 
 with col1:
-    calm = st_custom_toggle('Calm', active_track_fill="#EAE4E4", active_thumb_color="#EAE4E4", value="true", key="toggle1")  # Disabled toggle switch
+    # Disabled toggle switch
+    calm = st_custom_toggle('Calm', active_track_fill="#EAE4E4", active_thumb_color="#EAE4E4", value="true", key="toggle1")
 
 with col2:
     fun = st_custom_toggle('Fun', active_track_fill="#57FD6E", active_thumb_color="#EAE4E4", key="toggle2")
@@ -47,7 +51,6 @@ with col3:
     music = st.radio(
     "Select your favorite artist",
     ('The Beatles', 'AC/DC', 'Pink Floyd', 'Elvis Presley', 'MÃ¥neskin'), disabled=music_toggle)
-
     st.markdown(f"You choose {music}")
 
 # Checking the toggle state
