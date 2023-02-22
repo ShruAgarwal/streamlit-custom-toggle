@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import{ ComponentProps, Streamlit, withStreamlitConnection } from "streamlit-component-lib";
 import { HeartSwitch } from "@anatoliygatt/heart-switch";
 
-
+// Arguments that will be passed from Python
 interface PythonArgs {
   label: string
   default_value: boolean
@@ -15,6 +15,7 @@ const StreamlitCustomToggle = (props: ComponentProps) => {
   const { label, default_value, value, active_track_fill, active_thumb_color}: PythonArgs = props.args;
   useEffect(() => Streamlit.setFrameHeight());
 
+  // Handles the state of the toggle
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setState({ ...state, [event.target.name]: event.target.checked });
     Streamlit.setComponentValue(!event.target.checked );
@@ -46,5 +47,5 @@ const StreamlitCustomToggle = (props: ComponentProps) => {
     );
 }
 
-// The function publicly available.
+// CustomToggle is now exposed to view in public!
 export default withStreamlitConnection(StreamlitCustomToggle);
