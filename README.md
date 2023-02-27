@@ -20,7 +20,7 @@
  </a>
 </p>
 
-A custom component to load heart-shaped Toggle Switch 🧡
+⚡ A custom component that can load heart-shaped Toggle Switch inside your Streamlit apps.  Also, you can **sync this toggle with different Streamlit widgets!**
 
 
 ## Demo 🕹
@@ -71,6 +71,7 @@ with col3:
 st.code(f"Calm = {calm}, Fun = {fun}, Rock = {music_toggle}")
 ```
 
+
 ## Arguments Config ⚙
 It supports the following arguments customization:
 
@@ -82,6 +83,7 @@ It supports the following arguments customization:
 | value                         | bool   | OPTIONAL | If it's value is set to `true`, then the toggle switch is deactivated. **The toggle is activated by default**
 | key                           | string |   YES    | An optional key value that uniquely identifies this component.
 
+
 ## Tech Stack 🧰
 <p align="left">
  <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" width="50" />
@@ -91,6 +93,13 @@ It supports the following arguments customization:
  <img src="https://img.icons8.com/color/256/nodejs.png" width="50" />
  <img src="https://files.anaconda.com/production/resources/open-source/conda-artboard.svg" width="80" />
 </p>
+
+
+## Workflow 👀
+Here's the blueprint on how my component works. For understanding it in details, 👉 **[Read here please!](https://shru.hashnode.dev/dont-let-those-bugs-slow-you-down#heading-final-code-blueprint)**
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1677245116395/823a8c42-4ceb-4d9a-92e3-a02a3b72f240.png" />
+
 
 ## License 📝
 This software is open source, licensed under the [MIT License.](https://github.com/ShruAgarwal/streamlit-custom-toggle/blob/main/LICENSE)
