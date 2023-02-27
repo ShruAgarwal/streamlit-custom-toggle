@@ -1,6 +1,6 @@
+![streamlit-custom-toggle](https://socialify.git.ci/ShruAgarwal/streamlit-custom-toggle/image?description=1&font=Rokkitt&forks=1&language=1&logo=https%3A%2F%2Fimg.icons8.com%2Fplasticine%2F256%2Freact.png&name=1&owner=1&pattern=Charlie%20Brown&stargazers=1&theme=Light)
 
 
-A custom component to load heart-shaped Toggle Switch 🧡
 
 <p align="center">
  <a href="https://pypi.org/project/streamlit-custom-toggle/0.1.1/">
@@ -19,6 +19,9 @@ A custom component to load heart-shaped Toggle Switch 🧡
   <img src="https://img.shields.io/pypi/dm/streamlit-custom-toggle?color=pink" />
  </a>
 </p>
+
+A custom component to load heart-shaped Toggle Switch 🧡
+
 
 ## Demo 🕹
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shru-examples.streamlit.app/Heart_Toggle_Switch)
